@@ -5,69 +5,96 @@
 
 * {
 	font-family: 'Oswald', sans-serif;
-	font-weight: normal;
+	font-weight: 300;
 }
 
 
-
 .box {
-	/*background:;*/
-	/*background-image: url("https:\/\/img0.etsystatic.com\/011\/1\/7540244\/il_75x75.428609380_5cd6.jpg");*/
 	position: relative; 
+	overflow: hidden;
 	float: left;
 	width: 200px;
 	height: 200px;
 	margin: 20px;
-	box-shadow: 0px 0px 2px 5px white;
+	padding-bottom: 50px;
+	box-shadow: 0px 0px 0px 5px white;
 	background-size: cover;
 }
 
 .boxTitle {
-/*	font-family: 'Anonymous Pro', sans-serif;
-	font-weight: bold;	*/
-	color: transparent;
-	position: relative;
-	height: 180px;
+/*	position: relative;
 	background: transparent;
+	text-align: left;
+	color: black;
+	height: 225px;
 	padding: 10px 5px;
+	transition: all .3s ease-out;*/
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	color: black;
+	position: absolute;
+	text-align: left;
+	display: block;
+	width: 90%;
+	padding: 10px 5px;
+	bottom: 0px;
+	background-color: white;
+	clear: both;
 	transition: all .3s ease-out;
 }
 
-.boxTitle:hover {
-	/*font-family: 'Anonymous Pro', sans-serif;*/
-	font-weight: bold;	
+/*.boxTitle:hover {
+	font-weight: 300;	
 	position: relative;
-	height: 180px;
+	height: 225px;
 	color: black;
-	/*background: rgba(255, 255, 255, 0.5);*/
-	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
 	padding: 10px 5px;
-	/*box-shadow: 0 0 0 5px black;*/
-	/*padding-top: 10px;*/
-	/*transition: all .3s ease;*/
-}
+}*/
 
 .boxPrice {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
-	font-size: 3em;
-	color: transparent;
-	position: relative;
-	height: 180px;
+	font-size: 1em;
+	color: black;
+	position: absolute;
+	float: right;
+	display: block;
+	width: 90%;
 	padding: 10px 5px;
+	bottom: 0px;
+	background-color: white;
 	transition: all .3s ease-out;
 }
 
-.boxPrice:hover {
+.boxDescription {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	color: black;
+	position: absolute;
+	float: left;
+	display: block;
+	width: 90%;
+	padding: 10px 5px;
+	bottom: 0px;
+	background-color: white;
+	transition: all .3s ease-out;
+}
+
+/*.boxPrice:hover {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;	
 	font-size: 3em;
-	position: relative;
-	height: 180px;
+	position: absolute;
+	bottom: 0px;
+	display: block;
+	width
+	text-align: right;
 	color: black;
-	/*background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);*/
 	padding: 10px 5px;
-}
+}*/
 
 /*============================================*/
 /* Main Styling */

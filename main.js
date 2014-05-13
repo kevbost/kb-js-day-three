@@ -41,17 +41,19 @@ var lastPart = ') " class="box"></div>'
 // ==========================================================
 // Loop over first image.  Add a title + stuff
 // ==========================================================
-var firstPart = '<div style=" background-image: url(';
-var lastPart = ') " class="box"></div>' 
+// var firstPart = '<div style=" background-image: url(';
+// var lastPart = ') " class="box"></div>' 
 
-items.forEach(function(item){
-    var totalString = firstPart + item.Images[0].url_570xN + lastPart
-    $('.main').append(totalString)
-	var totalString = '<div class="boxTitle">' + item.title + '</div>'
-    $('.box').last().append(totalString)
-    var totalString = '<div class="boxPrice">' + "$" + item.price + '</div>'
-    $('.boxTitle').last().append(totalString)
-})
+// items.forEach(function(item){
+//     var totalString = firstPart + item.Images[0].url_570xN + lastPart
+//     $('.main').append(totalString)
+//     var totalString = '<div class="boxTitle"></div>'
+//     $('.box').last().append(totalString)
+//     var totalString = '<div class="boxPrice">' + "$" + item.price + '</div>'
+//     $('.boxTitle').last().append(totalString)
+//     var totalString = '<div class="boxDescription">' + item.category_path[0] + " | " + item.category_path[1] + '</div>'
+//     $('.boxTitle').last().append(totalString)
+// })
  
 
 // =============================================
