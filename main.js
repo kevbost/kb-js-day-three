@@ -44,17 +44,20 @@ var lastPart = ') " class="box"></div>'
 // var firstPart = '<div style=" background-image: url(';
 // var lastPart = ') " class="box"></div>' 
 
-// items.forEach(function(item){
-//     var totalString = firstPart + item.Images[0].url_570xN + lastPart
-//     $('.main').append(totalString)
-//     var totalString = '<div class="boxTitle"></div>'
-//     $('.box').last().append(totalString)
-//     var totalString = '<div class="boxPrice">' + "$" + item.price + '</div>'
-//     $('.boxTitle').last().append(totalString)
-//     var totalString = '<div class="boxDescription">' + item.category_path[0] + " | " + item.category_path[1] + '</div>'
-//     $('.boxTitle').last().append(totalString)
-// })
- 
+items.forEach(function(item){
+    // var totalString = firstPart + item.Images[0].url_570xN + lastPart
+    // $('.main').append(totalString)
+    var totalString = '<a href="' + item.url + '"style="background-image: url(' + item.Images[0].url_570xN + ') " target="_blank" class="box"></a>'
+    $('.main').append(totalString)
+	var totalString = '<div class="boxTitle">' + item.category_path[0] + " | " + item.category_path[1] + '</div>'
+    $('.box').last().append(totalString)
+    var totalString = '<div class="boxPrice">' + "$" + item.price + '</div>'
+    $('.boxTitle').last().append(totalString)
+})
+
+// ==========================================================
+// List of Links to leftBar
+// ==========================================================
 
 // =============================================
 // Loop over the first image hex_code available.

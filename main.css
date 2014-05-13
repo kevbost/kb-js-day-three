@@ -8,6 +8,9 @@
 	font-weight: 300;
 }
 
+a {
+	text-decoration: none;
+}
 
 .box {
 	position: relative; 
@@ -19,39 +22,25 @@
 	padding-bottom: 50px;
 	box-shadow: 0px 0px 0px 5px white;
 	background-size: cover;
+	background-position: center;
 }
 
 .boxTitle {
-/*	position: relative;
-	background: transparent;
+	position: relative;
+	margin: 0 auto;
+	top: 100%;
+	background: rgba(236, 235, 233, 0.3);
 	text-align: left;
 	color: black;
-	height: 225px;
-	padding: 10px 5px;
-	transition: all .3s ease-out;*/
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
-	font-size: 1em;
-	color: black;
-	position: absolute;
-	text-align: left;
-	display: block;
+	height: 12%;
 	width: 90%;
 	padding: 10px 5px;
-	bottom: 0px;
-	background-color: white;
-	clear: both;
 	transition: all .3s ease-out;
 }
 
-/*.boxTitle:hover {
-	font-weight: 300;	
-	position: relative;
-	height: 225px;
-	color: black;
-	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
-	padding: 10px 5px;
-}*/
+.boxTitle:hover {
+	background: rgba(236, 235, 233, 1);
+}
 
 .boxPrice {
 	font-family: 'Oswald', sans-serif;
@@ -59,42 +48,19 @@
 	font-size: 1em;
 	color: black;
 	position: absolute;
-	float: right;
-	display: block;
-	width: 90%;
-	padding: 10px 5px;
-	bottom: 0px;
-	background-color: white;
-	transition: all .3s ease-out;
-}
-
-.boxDescription {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
-	font-size: 1em;
-	color: black;
-	position: absolute;
-	float: left;
-	display: block;
-	width: 90%;
-	padding: 10px 5px;
-	bottom: 0px;
-	background-color: white;
-	transition: all .3s ease-out;
-}
-
-/*.boxPrice:hover {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;	
-	font-size: 3em;
-	position: absolute;
-	bottom: 0px;
-	display: block;
-	width
 	text-align: right;
-	color: black;
+	display: block;
+	width: 90%;
 	padding: 10px 5px;
-}*/
+	bottom: 0px;
+	background-color: transparent;
+	transition: all .3s ease-out;
+}
+
+
+.boxPrice:hover {
+	color: green;
+}
 
 /*============================================*/
 /* Main Styling */
@@ -105,7 +71,9 @@ body {
 }
 
 .head {
-	background-color: red;
+	background-image: url(head.png);
+	background-size: cover;
+	background-position: center;
 	width: 100%;
 	height: 400px;
 	margin-bottom: 10px;
@@ -125,29 +93,34 @@ body {
 	height: 100%;
 }
 
-.rightbar {
+.leftbar {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 	display: inline-block;
 	background-color: orange;
 	float: left;
 	width: 200px;
 	height: 900px;
 	text-align: center;
+	box-shadow: 0 0 0 5px white;
+	margin-top: 20px;
 }
 
-.rightbar h1 {
+.leftbar h1 {
 	font-family: 'Anonymous Pro', sans-serif;
 	font-weight: bold;	
 	color: white;
 }
 
-.foot {
+/*.foot {
 	display: block;
 	clear: both;
 	background-color: red;
 	width: 100%;
 	height: 400px;
 	margin-top: 10px;
-}
+}*/
 
 
 
