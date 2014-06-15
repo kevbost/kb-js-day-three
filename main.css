@@ -1,6 +1,10 @@
-/*============================================*/
+/*==============*/
+/* JS DAY THREE */
+/*==============*/
+
+/*================*/
 /* jQuery Styling */
-/*============================================*/
+/*================*/
 
 
 * {
@@ -132,16 +136,16 @@ body {
 	color: white;
 }
 
-.foot {
+/*.foot {
 	display: block;
 	clear: both;
 	background-color: red;
 	width: 100%;
 	height: 400px;
 	margin-top: 10px;
-}
+}*/
 
-	.example {
+/*	.example {
 		position: relative;
 		width: 400px;
 		height: 400px;
@@ -179,7 +183,7 @@ body {
 		border-radius: 0;
 		width: 400px;
 		height: 400px;
-	}
+	}*/
 
 
 

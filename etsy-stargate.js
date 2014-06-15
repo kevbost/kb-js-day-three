@@ -3231,4 +3231,5 @@ var items = [{
       "full_width": 612
     }
   ]
-}]
+}
+]
